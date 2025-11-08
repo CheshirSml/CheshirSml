@@ -28,6 +28,8 @@ Here are some ideas to get you started:
 | Проект | Описание | Технологии | Демо / Ссылки |
 |--------|----------|------------|----------------|
 | **[Tree CV Hackathon](https://github.com/CheshirSml/tree-cv-hackaton)** | Экспериментальное решение для анализа состояния деревьев по фото с помощью CV и мультимодальных LLM. LLM хорошо распознают дефекты (до 80%). Обучена модель **YOLO Segmentation** (mAP50 = 0.583). | Python, PyTorch, YOLO, Gemini/GPT-4/LLaMA, FastAPI/Django, Vue, Vuetify, Capacitor | [Веб-интерфейс](http://45.89.66.66:8070/) • [API](https://botanicpanic.pro/tapi) • [Swagger](http://45.89.66.66:8071/swagger/) |
+| **[AI for Finance](https://github.com/CheshirSml/AI_for_Finance/tree/main)** | Production-ready RAG-пайплайн для ответов на открытые финансовые вопросы. Реализован гибридный поиск (FAISS + BM25), переформулировка запроса, reranking, сжатие контекста и автоматический fallback. Поддерживает режимы `eco` / `balanced` / `max-score` и строгий контроль бюджета токенов и стоимости. Участвовал в AI-for-Finance Hackathon. | Python, LangChain, FAISS, Mistral/LLaMA/Grok, Qwen3-Reranker, FastAPI, tiktoken | [GitHub](https://github.com/CheshirSml/AI_for_Finance/tree/main) |
+
 
 
 
